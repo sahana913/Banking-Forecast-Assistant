@@ -1,0 +1,46 @@
+2025-12-07 14:12:53,335 - INFO - Training LSTM liquidity model...
+2025-12-07 14:13:18,708 - INFO - Training LSTM liquidity model...
+2025-12-07 14:13:28,988 - INFO - Liquidity model trained & saved. RMSE = 0.0122
+2025-12-07 14:20:56,343 - INFO - Starting RandomizedSearchCV for XGBoost default model...
+2025-12-07 14:21:04,342 - INFO - Loan Default model trained & saved. Best ROC AUC = nan
+2025-12-07 14:40:52,137 - INFO - Starting RandomizedSearchCV for XGBoost default model...
+2025-12-07 14:41:01,196 - INFO - Loan Default model trained & saved. Best ROC AUC = nan
+2025-12-07 14:44:01,221 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-09 10:21:55,290 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-13 10:27:24,636 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-13 10:28:01,088 - INFO - Starting RandomizedSearchCV for XGBoost default model...
+2025-12-13 10:28:27,742 - INFO - Loan Default model trained & saved.
+2025-12-13 10:31:30,312 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-13 10:35:06,917 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-13 13:25:17,828 - ERROR - Error in forecast_liquidity: pop from empty list
+Traceback (most recent call last):
+  File "C:\Users\Dell\Downloads\Banking Forecast Assistant (3) final\app\forecast_engine.py", line 774, in forecast_liquidity
+    pred_scaled = model.predict(x, verbose=0)[0][0]
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\name_scope.py", line 61, in __exit__
+    name_scope_stack.pop()
+    ~~~~~~~~~~~~~~~~~~~~^^
+IndexError: pop from empty list
+2025-12-13 14:00:21,809 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-18 20:15:16,410 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-19 07:56:39,143 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-12-19 12:23:47,763 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-01-01 18:12:32,704 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-01-14 16:50:08,526 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-01-26 16:39:42,743 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2026-02-11 15:08:31,217 - WARNING - From C:\Users\Dell\AppData\Local\Programs\Python\Python313\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
